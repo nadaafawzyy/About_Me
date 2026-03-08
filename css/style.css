@@ -1,5 +1,5 @@
 :root{
-   --textl:#000000;
+    --textl:#000000;
     --textr:#fff;
     --bgr:#4f4f4c;
     --bgl:#f4f4ea;
@@ -21,14 +21,9 @@ h1{
     font-family: var(--font1);
     font-weight: 600;
 }
-
-
-
-
 .contant{
     display: flex;
 }
-
 .left{
     display: flex;
     background-color: var(--bgl);
@@ -50,7 +45,6 @@ h1{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-
 a:hover,
 .links img:hover{
     transform: scale(1.06);
@@ -59,7 +53,6 @@ a:hover,
     -ms-transform: scale(1.06);
     -o-transform: scale(1.06);
 }
-
 .right{
     display: flex;
     width: 100%;
@@ -89,6 +82,4 @@ a:hover,
     .contant{
         display: block;
     }
-    
-
 }
