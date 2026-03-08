@@ -1,9 +1,9 @@
 :root{
-    --textl:#000000;
+   --textl:#000000;
     --textr:#fff;
-    --bgr:#41413f;
+    --bgr:#4f4f4c;
     --bgl:#f4f4ea;
-    --button:#8a4e4e;
+    --button:#030000;
     --font1:Cinzel;
     --font2:'Roboto Condensed';
 }
@@ -90,4 +90,5 @@ a:hover,
         display: block;
     }
     
+
 }
