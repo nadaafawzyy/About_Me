@@ -138,16 +138,17 @@ a:hover,
     -ms-transform: scale(1.06);
     -o-transform: scale(1.06);
 }
-@media (max-width:767px) {
-    .contant{
+@media (max-width:768px) {
+    main{
         align-items: center;
         flex-direction: column;
         gap: 1em;
     }
-    .right{
-        min-height: 600px;
+    .left{
+        width: 100%;
     }
-    .img-text-contaner img{
-        max-height: 360px;
+    .right{
+        width: 100%;
+        height: 39em;
     }
 }
