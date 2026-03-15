@@ -114,4 +114,6 @@ a:hover, .links img:hover{
         margin: 20px ;
         padding: 20px;
     }
-}
+.right{
+    grid-template-rows: auto 1fr auto;
+}}
