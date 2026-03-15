@@ -35,6 +35,8 @@ main{
 .left{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     padding: 1em;
     background-color: var(--bgl);
@@ -67,6 +69,8 @@ a:hover, .links img:hover{
 .right{
     display: grid;
     gap: 1em;
+    align-items: center;
+    justify-content: center;
     grid-template-rows: auto 1fr auto;
     background-color: var(--bgr);
     color: var(--textr);
