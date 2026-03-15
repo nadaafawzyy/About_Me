@@ -71,7 +71,7 @@ a:hover, .links img:hover{
     gap: 1em;
     align-items: center;
     justify-content: center;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: .5fr 1fr auto;
     background-color: var(--bgr);
     color: var(--textr);
     text-align: center;
