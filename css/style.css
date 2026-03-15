@@ -34,9 +34,9 @@ main{
 }
 .left{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     width: 100%;
     padding: 1em;
     background-color: var(--bgl);
@@ -68,9 +68,9 @@ a:hover, .links img:hover{
 }
 .right{
     display: grid;
-    gap: 1em;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    gap: 1em;
     grid-template-rows: .5fr 1fr auto;
     background-color: var(--bgr);
     color: var(--textr);
@@ -88,8 +88,8 @@ a:hover, .links img:hover{
 .button a{
     text-decoration: none;
     display: inline-block;
-    padding: 1em;
-    margin: 2.8em;
+    padding: 1.5em;
+    margin: 3em;
     color: var(--textr);
     background-color: var(--button);
     border-radius: 0.5em;
@@ -101,19 +101,31 @@ a:hover, .links img:hover{
     transform: scale(1.06);
 }
 @media (max-width:768px) {
+    body{
+        background-color: #eee;
+    }
     main{
         grid-template-columns: 1fr;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        gap: 1em;
+        gap: 2em;
+        font-size: 0.9em;
     }
     .button a{
-        display: flex;
-        flex-direction: column;
+        display: grid;
         margin: 20px ;
         padding: 20px;
     }
-.right{
-    grid-template-rows: auto 1fr auto;
-}}
+    .right{
+        padding: 1.4em;
+        grid-template-rows: auto 1fr auto;
+    }
+    .left{
+        padding: 1.4em;
+    }
+    .img-text-contaner img{
+        width: fit-content;
+        height: 300px;
+    }
+}
